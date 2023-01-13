@@ -1,0 +1,56 @@
+@import './common';
+@import './daygrid';
+@import './timegrid';
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#root, .App {
+    height: 100%;
+  }
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+.rounded {
+  border-radius: 50% !important;
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-asana {
+  color: #fa726f;
+}
+
+.icon-trello .path1:before {
+  color: #007ec7 !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.scroll {
+  overflow-y: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.content-view{
+  margin-left: 81px;
+  display: flex;
+  flex-direction: column;
+}
